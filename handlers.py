@@ -2,7 +2,6 @@ from telegram.ext import CallbackContext
 from telegram import Update
 from keyboards import start_keyboard
 from settings import URL
-import json
 import requests
 
 def start(update: Update, context: CallbackContext):
